@@ -1,0 +1,14 @@
+{
+    "name": "sourovahmad/contact",
+    "description": "sent notifiction to admin when submit form",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sourovahmad",
+            "email": "mdsourovahmad19@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
