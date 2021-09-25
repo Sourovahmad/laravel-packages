@@ -30,7 +30,8 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Sourovahmad\\Contact\\": "package/contact/src/"
+            "Sourovahmad\\Contact\\": "package/contact/src/",
+            "Sourovahmad\\Unzipper\\": "package/unzipper/src/"
         }
     },
     "scripts": {

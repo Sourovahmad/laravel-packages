@@ -13,17 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::group(['namespace' => 'Sourovahmad\Contact\Http\Controllers'], function () {
-
-    Route::get('contact',  function () {
-        return view('contact::contact');
-    });
-
-// });
 
 
-
-
-
-
-
+Route::get('unzipper', function ()
+{
+    return "pacage workd";
+});
