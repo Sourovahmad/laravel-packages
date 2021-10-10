@@ -28,7 +28,7 @@ Route::post('submitForm', function (Request $request) {
 
 
      SourovahmadUnzipper::unzip($request->file);
-
+    return back();
 
 
 })->name('submitForm');
@@ -38,4 +38,5 @@ Route::post('submitForm', function (Request $request) {
 Route::get('getData', function()
 {
     SourovahmadUnzipper::getZipData('1632553485');
+
 });

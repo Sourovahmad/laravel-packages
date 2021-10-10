@@ -1,0 +1,19 @@
+{
+    "name": "sourovahmad/laravel-api-builder",
+    "description": "to create api without backend knowloahe",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sourovahmad\\LaravelApiBuilder\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "sourovahmad",
+            "email": "mdsourovahmad19@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

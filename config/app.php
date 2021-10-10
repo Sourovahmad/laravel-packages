@@ -176,6 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Sourovahmad\Contact\ContactServiceProvider::class,
         Sourovahmad\Unzipper\SourovahmadUnzipperServiceProvider::class,
+        Sourovahmad\LaravelApiBuilder\laravelApiBuilderServiceProvider::class
 
     ],
 
