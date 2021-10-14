@@ -15,9 +15,24 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('apiBuilder', function ()
-{
-    return "pacage workd";
+
+
+Route::prefix('sourovhmadApi')->group(function () {
+
+
+    
+
+
+
+
+    Route::get('apiTest', function () {
+        return "pacage workd";
+    });
+
+
 });
+
+
+
 
 

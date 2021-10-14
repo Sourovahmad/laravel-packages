@@ -12,7 +12,7 @@
 
         @csrf
 
-        <input type="file" name="file">
+        <input type="text" name="name">
         <button type="submit">submit</button>
 
     </form>

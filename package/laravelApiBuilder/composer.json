@@ -1,6 +1,6 @@
 {
     "name": "sourovahmad/laravel-api-builder",
-    "description": "to create api without backend knowloahe",
+    "description": "create api without backend knowloage",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -14,6 +14,13 @@
             "email": "mdsourovahmad19@gmail.com"
         }
     ],
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Sourovahmad\\LaravelApiBuilder\\laravelApiBuilderServiceProvider"
+        ]
+    }
+},
     "minimum-stability": "dev",
     "require": {}
 }

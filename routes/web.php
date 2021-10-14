@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 use Sourovahmad\Unzipper\Facades\SourovahmadUnzipper;
+use Sourovahmad\LaravelApiBuilder\Facades\SourovahmadApiBuilder;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,9 @@ use Sourovahmad\Unzipper\Facades\SourovahmadUnzipper;
 
 Route::get('/', function()
 {
-  return view('welcome');
+
+    return view('welcome');
+    // SourovahmadApiBuilder::store('url', 'data');
 });
 
     // SourovahmadUnzipper::unzip('hello');
@@ -27,8 +30,8 @@ Route::get('/', function()
 Route::post('submitForm', function (Request $request) {
 
 
-     SourovahmadUnzipper::unzip($request->file);
-    return back();
+    //  SourovahmadUnzipper::unzip($request->file);
+    return $request;
 
 
 })->name('submitForm');
