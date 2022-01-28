@@ -32,7 +32,8 @@
             "Tests\\": "tests/",
             "Sourovahmad\\Contact\\": "package/contact/src/",
             "Sourovahmad\\Unzipper\\": "package/unzipper/src/",
-            "Sourovahmad\\LaravelApiBuilder\\": "package/laravelApiBuilder/src/"
+            "Sourovahmad\\LaravelApiBuilder\\": "package/laravelApiBuilder/src/",
+            "Sourovahmad\\simpleui\\": "package/simpleui/src/"
         }
     },
     "scripts": {

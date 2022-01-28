@@ -43,3 +43,6 @@ Route::get('getData', function()
     SourovahmadUnzipper::getZipData('1632553485');
 
 });
+
+
+Route::view('ui', 'sourovahmad.simpleUI.index');
