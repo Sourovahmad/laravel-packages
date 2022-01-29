@@ -1,9 +1,11 @@
 # Laravel Package For Unzip the files in one line 
 
+
+
 ### Instaling
 
 ``` bash
-composer require sourovahmad/unzipper
+composer require sourovahmad/simpleui
 ```
 Done It will Install All dependecies for you 
 
